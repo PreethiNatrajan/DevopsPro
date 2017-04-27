@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+
+       int input,temp,sum=0,a;
+
+       Scanner scan=new Scanner(System.in);
+
+       input=scan.nextInt();
+
+       temp=input;
+
+       while(input>0)
+
+       {
+
+           a=input%10;
+
+           sum=(sum*10)+a;
+
+           input/=10;
+
+       }
+
+       if(temp==sum)
+
+       {
+
+         System.out.println("Palindrome");
+  
+       }
+
+       else
+
+       {
+
+           System.out.println("Not a palindrome");
+
+       }
+     
+}
+
+}

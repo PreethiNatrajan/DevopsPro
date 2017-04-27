@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+
+       int input;
+
+       Scanner scan=new Scanner(System.in);
+
+       input=scan.nextInt();
+
+       if((input%2)==0)
+
+       {
+
+           System.out.println("The given number "+input+" is even number");
+
+       }
+
+       else
+
+       {
+
+          System.out.println("The given number "+input+" is odd number");
+
+       }
+    
+}
+
+}

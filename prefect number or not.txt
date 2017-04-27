@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+
+       int input,sum=0;
+
+       Scanner scan=new Scanner(System.in);
+
+       input=scan.nextInt();
+
+       for(int i=1;i<input;i++)
+
+       {
+
+           if((input%i)==0)
+
+           {
+
+              sum=sum+i;
+
+           }
+
+       }
+
+       if(sum==input)
+
+       {
+
+           System.out.println("A perfect number");
+
+       }
+
+       else
+
+       {
+
+           System.out.println("Not a perfect number");
+
+       }
+
+     }
+
+}

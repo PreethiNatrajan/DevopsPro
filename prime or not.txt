@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+
+       int check=0,input;
+
+       Scanner scan=new Scanner(System.in);
+
+       input=scan.nextInt();
+
+       for(int i=1;i<=input;i++)
+
+       {
+
+           if((input%i)==0)
+
+           {
+
+               check++;
+
+           }
+
+       }
+
+       if(check==2)
+
+       {
+
+           System.out.println("given number is prime");
+
+       }
+
+       else
+
+       {
+
+           System.out.println("given number is not prime");
+
+       }
+     
+}
+
+}
